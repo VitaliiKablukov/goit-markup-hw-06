@@ -449,7 +449,7 @@ header {
 }
 .third-footer-container {
   margin-left: 70px;
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .footer-title,
@@ -513,6 +513,7 @@ header {
   padding-left: 16px;
   outline: none;
   transition: border-color var(--time-transition) var(--cubic-bezier);
+  color: var(--color-third);
 }
 .footer-input:focus,
 .footer-input:hover {
@@ -737,6 +738,7 @@ header {
   padding: 12px 16px;
   outline: none;
   transition: border-color var(--time-transition) var(--cubic-bezier);
+  resize: none;
 }
 .modal-coment:focus,
 .modal-coment:hover {
